@@ -1,0 +1,7 @@
+name: BetterCampfire
+version: '${version}'
+main: com.pixel4r.plugin.enderice.bettercampfire.BetterCampfire
+api-version: 1.19
+authors: [ Pixel4r ]
+description: Better Campfire is an improved version of Enderice Plugins (1.18)
+website: pixel4r.com
