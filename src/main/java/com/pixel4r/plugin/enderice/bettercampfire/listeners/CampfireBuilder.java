@@ -21,7 +21,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nullable;
-import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 
@@ -53,16 +53,20 @@ public final class CampfireBuilder implements Listener {
 
     }
 
-    public void onInteractWithCampfire(PlayerInteractEvent event) {
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+    public void onInteractWithCampfire(PlayerInteractEvent event) throws IOException {
         if (event.getAction() != Action.RIGHT_CLICK_BLOCK) return;
         Set<Material> materials = new HashSet<>();
         materials.add(Material.AIR);
 
-        if (!event.getPlayer().getTargetBlock(materials, 8).getType().equals(Material.CAMPFIRE)) return;
-        if (!event.getPlayer().isSneaking()) return;
+        Player player = event.getPlayer();
+
+        if (!player.getTargetBlock(materials, 8).getType().equals(Material.CAMPFIRE)) return;
+        if (!player.isSneaking()) return;
+
+//        player.sendMessage("Your respawn point has been saved!");
 
     }
-
 
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     public void onInteractWithEntity(PlayerInteractEntityEvent event) {
@@ -140,9 +144,7 @@ public final class CampfireBuilder implements Listener {
     }
 
     private boolean isValidTool(Player player, ItemStack tool) {
-        if (!player.getInventory().getItemInMainHand().asOne().equals(tool.asOne())) return false;
-
-        return true;
+        return player.getInventory().getItemInMainHand().asOne().equals(tool.asOne());
     }
 
     @Nullable
