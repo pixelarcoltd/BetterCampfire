@@ -28,3 +28,4 @@ BetterCampfire is compatible with Spigot and Paper Minecraft servers running ver
 
 ### Support:
 For support with the BetterCampfire plugin, please contact the developer via the Spigot or Paper plugin page, or through their website. Additionally, documentation and FAQs can be found on the plugin page.
+Learn more about us: https://pixel4r.com or https://pixel4r.com/discord
