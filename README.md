@@ -14,11 +14,12 @@ BetterCampfire is a Minecraft Spigot/Paper plugin that enhances the vanilla camp
 2. Place more stick on top of the filled hole.
 3. Lit the fire by rubbing 2 sticks together by put each one on each hand.
 4. Use the menu to select different types of wood for the fire, as well as various cooking recipes.
-5. Player can sneak and right click on the Campfire to make the current point as your saved point/respawn point. 
+5. Player can sneak and right click on the Campfire to make the current point as your saved point/respawn point. (Coming Soon)
 6. Enjoy the enhanced campfire experience!
 
 ### Features:
-- Home point: Better Campfire offers player a unique way to set their favorite point as their home or warp point.
+- Say goodbye to boring campfire crafting and hello to a more engaging and satisfying crafting experience!
+- Home Point feature - a game-changer for players looking for a more customizable experience! With this exciting new feature, players can easily set their favorite point as their home or warp point, making it easier to navigate through the game world. (Coming Soon)
 - Cooking recipes: BetterCampfire offers a selection of cooking recipes that players can use to cook food over the fire. 
 - Customizable configuration: BetterCampfire allows server admins to customize the plugin's settings to suit their needs. This includes options like enabling/disabling certain recipes, adjusting cooking times, and more.
 
