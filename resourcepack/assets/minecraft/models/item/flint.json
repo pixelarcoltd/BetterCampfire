@@ -1,0 +1,23 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/flint"
+    },
+    "overrides": [
+
+        {"predicate": {"custom_model_data":1}, "model": "item/custom/materials/plant_fibre"},
+
+        {"predicate": {"custom_model_data":1001}, "model": "item/custom/models/fire_pit_01"},
+        {"predicate": {"custom_model_data":1002}, "model": "item/custom/models/fire_pit_02"},
+        {"predicate": {"custom_model_data":1003}, "model": "item/custom/models/fire_pit_03"},
+        {"predicate": {"custom_model_data":1004}, "model": "item/custom/models/fire_pit_04"},
+        {"predicate": {"custom_model_data":1005}, "model": "item/custom/models/fire_pit_05"},
+        {"predicate": {"custom_model_data":1006}, "model": "item/custom/models/fire_pit_06"},
+        {"predicate": {"custom_model_data":1007}, "model": "item/custom/models/fire_pit_07"},
+        {"predicate": {"custom_model_data":1008}, "model": "item/custom/models/fire_pit_08"},
+
+        {"predicate": {"custom_model_data":1011}, "model": "item/custom/models/campfire_intermediate"},
+        {"predicate": {"custom_model_data":1012}, "model": "item/custom/models/campfire_unlit"}
+        
+    ]
+}
