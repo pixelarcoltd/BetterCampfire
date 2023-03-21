@@ -7,7 +7,7 @@ BetterCampfire is a Minecraft Spigot/Paper plugin that enhances the vanilla camp
 ## Documentation:
 
 ### Installation:
-1. Download the BetterCampfire plugin file.
+1. Download the BetterCampfire plugin file. (https://www.spigotmc.org/resources/bettercampfire.108380/)
 2. Place the plugin file in the "plugins" folder of your Spigot/Paper Minecraft server.
 3. Restart the server.
 
